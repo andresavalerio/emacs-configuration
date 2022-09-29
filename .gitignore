@@ -1,0 +1,7 @@
+*.el~
+straight/
+tutorial/
+var/
+eln-cache/
+etc/
+auto-save-list/
