@@ -527,4 +527,18 @@ Exempt major modes are defined in `display-line-numbers-exempt-modes'."
 
 (provide 'init)
 
+(use-package pdf-tools
+  :after org)
+
+(setq org-latex-compiler "lualatex")
+(setq org-preview-latex-default-process 'dvisvgm)
+(setq org-latex-pdf-process (list
+                             "latexmk -pdflatex='lualatex -shell-escape -interaction nonstopmode' -pdf -f  %f"))
+
+(use-package python-mode
+  :mode "\\.py\\'")
+
+(use-package vterm
+  :custom (vterm-install t))
+
 ;;; init.el ends here
