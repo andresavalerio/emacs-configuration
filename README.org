@@ -2,10 +2,30 @@
 The repository for Emacs power, maintained by Andresa Valério, built with :heart: and Emacs lisp.
 
 ** Why Emacs?
-For those who use Emacs as a daily basis, thats a silly question. Others, however, may never see light in their lives. But there are plenty of reasons for someone to use such a complex tool.
+For those who use Emacs as a daily basis, the question of why to use it may seem trivial, but for others who have not yet discovered its potential, there are several compelling reasons to consider it. I'm here to highlight some of the key benefits of using Emacs. There are plenty of reasons for someone to use such a complex tool.
 
-First of all, Emacs is one of the most customizable tools I've ever seen. I can create my cute, colorful and useful environment with Lisp code. It's insane and adorable.
+First of all, Emacs stands out as one of the most customizable tools available I've ever seen. I can create my cute, colorful and useful environment with Lisp code. It is a program that differs itself from every other software.
 
-Emacs is more than just a VS Code substitute, is almost an entire operational system by itself. For now, I use only for writting purposes and some Racket codes, but you can use it for a variety of things, from caledar to emails.
+Emacs is more than just a VS Code substitute, it is almost an entire operational system by itself. For now, I use only for writting purposes and some study codes, but you can use it for a variety of things, such as managing calendars, writting emails, and chatting.
 
-Last but not least, Emacs is Free Software. And Free Software is Freedom. I hope you'll find the freedom you need in your machine, in your code and specially in your thought.
+Finally, Emacs is Free Software, and Free Software is Freedom. Emacs provides the power for personal use and contributes to the creation of a stronger programming community. I hope you'll find the freedom you need in your machine, in your code and specially in your thoughts through Emacs.
+
+*** Emacs as a metaprogramming tool
+Metaprogramming is the idea of making a program that uses other program as data to do stuff. In the words of ChatGPT, is "the practice of writing programs that can manipulate other programs or modify their own behavior at runtime". If this is meaningless to you, see this [[https://www.youtube.com/watch?v=LXhWW1Yqpt0&t=163s&ab_channel=StathisSideris][quick example]] and you'll probably understand it. Or simply read [[https://en.wikipedia.org/wiki/Metaprogramming][Wikipedia]].
+
+You may see Emacs as an old tool that weird people use, but it is also (LOL) a forgotten software that changes itself throught time and while developing it. When we are creating an =init.el=, we are actually writing code that changes the way the program works. Every piece of Emacs lisp interacts with Emacs and changes it - during initialization or while programming. In other words, it may be the most versatile program you'll use on your personal machine
+
+Its adaptability and versatility make it a valuable productivity tool that can be customized to fit your specific needs and preferences. I know developers that use calendars, e-mails and even browsers inside Emacs. If you are not a Python developer like me, there would be no reason to use =python-mode= - and you have total freedom to choose what should be used.  No two users' Emacs setups will be exactly the same, as each person's usage, needs and workflows will lead to a specific step.
+
+In the long run, Emacs really is a productivity tool that adapts to you and your environment needs. But for that to happen, we need to learn how to code our configuration files.
+
+*** Emacs as a cure for 'Worse is Better'
+If you see my GitHub profile, you'll see a reference to an article called [[https://www.dreamsongs.com/RiseOfWorseIsBetter.html][the Rise of the Worse is Better]].
+
+#+BEGIN_QUOTE
+“Therefore, the worse-is-better software first will gain acceptance, second will condition its users to expect less, and third will be improved to a point that is almost the right thing”
+#+END_QUOTE
+
+* Resources
+[[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][Init information]]
+[[https://systemcrafters.net/emacs-from-scratch/basics-of-emacs-configuration/][System Crafters Emacs Tutorials]]
