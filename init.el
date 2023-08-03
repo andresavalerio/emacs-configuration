@@ -541,4 +541,8 @@ Exempt major modes are defined in `display-line-numbers-exempt-modes'."
 (use-package vterm
   :custom (vterm-install t))
 
+;; host sites
+(use-package simple-httpd
+  :ensure t)
+
 ;;; init.el ends here
